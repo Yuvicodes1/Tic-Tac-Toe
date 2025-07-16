@@ -12,7 +12,7 @@ body{
     text-align: center;
 }
 
-/* From Uiverse.io by zjssun */ 
+
 .button {
   position: relative;
   padding: 10px 22px;
@@ -36,7 +36,6 @@ body{
   left: 50%;
   height: 100%;
   transform: translateX(-50%);
-  z-index: -1000;
   background-repeat: no-repeat;
 }
 

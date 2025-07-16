@@ -1,0 +1,74 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #444;
+    text-align: left;
+    width: 100%;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-control input:focus {
+    border-color: #7b2cbf;
+    outline: none;
+}
+
+/* Button styling */
+form > .btn,
+form > .btn-alt {
+    margin: 0 0.5rem;
+}
+
+/* Wrap buttons on one line */
+form > .btn,
+form > .btn-alt {
+    display: inline-block;
+}
+
+form > .btn-alt {
+    align-self: center;
+}
+
+form > .btn {
+    align-self: center;
+}
+
+/* Ensure both buttons stay next to each other */
+form > .btn,
+form > .btn-alt {
+    margin-top: -0.5rem;
+}
+
+/* Group buttons visually */
+form {
+    gap: 1.2rem;
+}
+
+#config-overlay {
+    text-align: center;
+}
+
+#game-config{
+    width: 90%;
+    max-width: 40rem;
+}
