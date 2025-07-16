@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass-Time Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome !</h1>
+        <h2>Play Yuvi's Tic-Tac-Toe</h2>
+    </header>
+    <main> 
+        <aside>
+            <h2>Choose Player Name</h2>
+            <form>
+                <div>
+                    <label for="playername">Player Name</label>
+                    <input type="text" name="username" id="playername"/>
+                </div>
+                <div class="overlay-btn" type="button">Cancel</div>
+                <button type="submit">Confirm</button>
+            </form>
+        </aside>
+        <section id="game-config">
+            <ol>
+                <li>
+                    <article>
+                        <h2>Player 1</h2>
+                        <h3>PLAYER NAME</h3>
+                        <p>X</p>
+                        <button>Edit</button>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <h2>Player 2</h2>
+                        <h3>PLAYER NAME</h3>
+                        <p>O</p> 
+                        <button>Edit</button>
+                    </article>
+                </li>
+            </ol>
+            <button>Start Game</button>
+        </section> 
+        <section id="active-game"></section>
+        <article>
+            <h3>You Won! <span id="winner">Player Name</span></h3>
+            <p>Click "Start Game" to Start a New Game !</p>
+        </article>
+        <p>It is your turn <span id="active-player">Player Name</span></p>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </main>
+    <footer>
+        <p>Built Using HTML CSS JavaScript</p>
+    </footer>
+</body>
+</html>
