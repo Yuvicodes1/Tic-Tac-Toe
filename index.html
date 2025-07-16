@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pass-Time Toe</title>
+    <link rel="stylesheet" href="Styles/styles.css">
 </head>
 <body>
-    <header>
+    <header id="main-header">
         <h1>Welcome !</h1>
-        <h2>Play Yuvi's Tic-Tac-Toe</h2>
+        <h3>Play Yuvi's Tic-Tac-Toe</h3>
     </header>
     <main> 
         <aside>
@@ -18,8 +19,8 @@
                     <label for="playername">Player Name</label>
                     <input type="text" name="username" id="playername"/>
                 </div>
-                <div class="overlay-btn" type="button">Cancel</div>
-                <button type="submit">Confirm</button>
+                <button class="btn btn-alt">Cancel</button>
+                <button type="submit" class="btn">Confirm</button>
             </form>
         </aside>
         <section id="game-config">
@@ -29,7 +30,7 @@
                         <h2>Player 1</h2>
                         <h3>PLAYER NAME</h3>
                         <p>X</p>
-                        <button>Edit</button>
+                        <button class="btn btn-alt">Edit</button>
                     </article>
                 </li>
                 <li>
@@ -37,11 +38,11 @@
                         <h2>Player 2</h2>
                         <h3>PLAYER NAME</h3>
                         <p>O</p> 
-                        <button>Edit</button>
+                        <button class="btn btn-alt">Edit</button>
                     </article>
                 </li>
             </ol>
-            <button>Start Game</button>
+            <button class="button">Start Game</button>
         </section> 
         <section id="active-game"></section>
         <article>
