@@ -71,4 +71,38 @@ form {
 #game-config{
     width: 90%;
     max-width: 40rem;
+    margin: 3rem auto;
+    text-align: center;
 }
+#game-config ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#game-config li{
+    width: 50%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(243,227,255);
+    border-radius: 4px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.2);
+}
+#game-config h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: rgb(94,4,168);
+}
+#game-config h2{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.player-symbol{
+    font-size: 2rem;
+    font-weight: 850;
+    margin: 0.5rem  0;
+    color: rgb(94,4,168);
+}
+
+
