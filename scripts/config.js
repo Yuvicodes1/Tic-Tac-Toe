@@ -8,6 +8,8 @@ function openPlayerConfig(event){
 function closePlayerConfig(){
     playerConfigOverlay.style.display='none';
     backdrop.style.display='none';
+    errorOutputElement.textContent=''; //clearing any previous error message
+    formElement.firstElementChild.lastElementChild.value=''; //clearing the input field of the
 }
 
 //we get an event object due the presence of the submit event listener
@@ -37,5 +39,5 @@ function savePlayerConfig(event){
         players[1].name=enteredPlayername;
     }
 
-    
+    closePlayerConfig();
 }
