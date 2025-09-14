@@ -1,6 +1,18 @@
+let editedPlayer = 0;
+const players=[
+    {
+        name:'',
+        symbol:'X'
+    },{
+        name:'',
+        symbol:'O'
+    },
+];
+
 const playerConfigOverlay = document.getElementById('config-overlay');
 const backdrop = document.getElementById('backdrop'); 
 const formElement = document.querySelector('form');
+const errorOutputElement = document.getElementById('config-error');
 
 const editplayer1btn = document.getElementById('edit-player1-btn');
 const editplayer2btn = document.getElementById('edit-player2-btn');
